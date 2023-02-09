@@ -1,48 +1,37 @@
 import React, { useState } from 'react';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+
+import Navigation from './Navigation';
+import About from './pages/About';
+import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
+import Resume from './pages/Resume';
+
+export default function Header() {
+  const [currentPage, setCurrentPage] = useState('About');
 
 
-function Navigation({ currentPage, handlePageChange }) {
+  const renderPage = () => {
+    if (currentPage === 'About') {
+      return <About />;
+    }
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
+    }
+    if (currentPage === 'Contact') {
+      return <Contact />;
+    }
+    if (currentPage === 'Resume') {
+        return <Resume />;
+      }
+    return <About />;
+  };
 
-    return (
-        <div>
-            <Navbar bg="transparent">
-                <Container>
-                    <Navbar.Brand href="#home">TESSA STARKWEATHER</Navbar.Brand>
-                </Container>
-            </Navbar>
-            <Navbar bg="transparent">
-                <Container>
-                    <Navbar.Brand href="#home">BRAND</Navbar.Brand>
-                    <Nav className="me-auto">
-                        <Nav.Link
-                            href="#aboutme" onClick={() => handlePageChange('Home')}
-                            className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>
-                            ABOUT ME
-                        </Nav.Link>
-                        <Nav.Link
-                            href="#portfolio" onClick={() => handlePageChange('Project')}
-                            className={currentPage === 'Project' ? 'nav-link active' : 'nav-link'}>
-                            PORTFOLIO
-                        </Nav.Link>
-                        <Nav.Link
-                            href="#contact" onClick={() => handlePageChange('Contact')}
-                            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>
-                            CONTACT
-                        </Nav.Link>
-                        <Nav.Link
-                            href="#resume" onClick={() => handlePageChange('Resume')}
-                            className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>
-                            RESUME
-                        </Nav.Link>
+  const handlePageChange = (page) => setCurrentPage(page);
 
-                    </Nav>
-                </Container>
-            </Navbar>
-        </div>
-    );
+  return (
+    <div>
+      <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+      {renderPage()}
+    </div>
+  );
 }
-
-export default Navigation;
