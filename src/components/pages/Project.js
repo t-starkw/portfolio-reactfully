@@ -14,14 +14,14 @@ function Project(props) {
             <Row md={3} >
                 {props.projects.map((project) => (
                     <Col>
-                        <Card className="bg-dark text-white">
-                            <Card.Img src={project.image} alt="Card image" />
+                        <Card className="bg-dark text-white text-center m-4">
+                            <Card.Img className='card-img' src={project.image} alt="Project card" />
                             <Card.ImgOverlay>
                                 <Card.Title key={project.id}>{project.title}</Card.Title>
                                 <Card.Text>
                                     {project.description}
                                 </Card.Text>
-                                <Card.Subtitle className="mb-2 ">Languages: {project.languages}</Card.Subtitle>
+                                <Card.Subtitle className="mb-2 ">Tools: {project.tools}</Card.Subtitle>
                                 <Card.Link href={project.repo}>View Repo</Card.Link>
                                 <Card.Link href={project.live}>View Site</Card.Link>
                             </Card.ImgOverlay>

@@ -8,15 +8,15 @@ function Navigation({ currentPage, handlePageChange }) {
 
     return (
         <div>
-            <Navbar bg="transparent">
+            <Navbar bg="transparent" expand='lg'>
                 <Container>
-                    <Navbar.Brand href="#home">TESSA STARKWEATHER</Navbar.Brand>
+                    <Navbar.Brand className="m-auto" href="#home"><h1>TESSA STARKWEATHER</h1></Navbar.Brand>
                 </Container>
             </Navbar>
             <Navbar bg="transparent">
                 <Container>
-                    <Navbar.Brand href="#home">BRAND</Navbar.Brand>
-                    <Nav className="me-auto">
+                    {/* <Navbar.Brand href="#home">BRAND</Navbar.Brand> */}
+                    <Nav className="m-auto flex-grow-1 justify-content-evenly">
                         <Nav.Link
                             href="#aboutme" onClick={() => handlePageChange('Home')}
                             className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>
