@@ -3,6 +3,12 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
+const styles = {
+    imgSize: {
+        height: '50px',
+        // width: '100px'
+    }
+}
 
 function Navigation({ currentPage, handlePageChange }) {
 
@@ -10,7 +16,11 @@ function Navigation({ currentPage, handlePageChange }) {
         <div>
             <Navbar bg="transparent" expand='lg'>
                 <Container>
-                    <Navbar.Brand className="m-auto" href="#home"><h1>TESSA STARKWEATHER</h1></Navbar.Brand>
+                    {/* <Navbar.Brand className="m-auto" href="#home"><h1>TESSA STARKWEATHER</h1></Navbar.Brand> */}
+                    <Navbar.Brand className="m-auto">
+                        <img style={styles.imgSize} src="../../../../image/TS-logo.png" alt="logo"></img>
+                        
+                    </Navbar.Brand>
                 </Container>
             </Navbar>
             <Navbar bg="transparent">
@@ -28,15 +38,16 @@ function Navigation({ currentPage, handlePageChange }) {
                             PORTFOLIO
                         </Nav.Link>
                         <Nav.Link
-                            href="#contact" onClick={() => handlePageChange('Contact')}
-                            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>
-                            CONTACT
-                        </Nav.Link>
-                        <Nav.Link
                             href="#resume" onClick={() => handlePageChange('Resume')}
                             className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>
                             RESUME
                         </Nav.Link>
+                        <Nav.Link
+                            href="#contact" onClick={() => handlePageChange('Contact')}
+                            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>
+                            CONTACT
+                        </Nav.Link>
+
 
                     </Nav>
                 </Container>

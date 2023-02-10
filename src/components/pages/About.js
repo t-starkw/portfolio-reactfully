@@ -40,8 +40,8 @@ function About() {
         //         </div>
         //     </div>
         <div>
-            <h1 className='m-4 text-center'>ABOUT ME</h1>
-            <Carousel>
+            
+            <Carousel className='m-5'>
                 <Carousel.Item interval={4000}>
                     <Container>
                         <Row>
