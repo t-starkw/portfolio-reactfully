@@ -2,15 +2,17 @@ import React from 'react';
 import Project from './Project';
 
 const projects = [
+
     {
         id: 0,
-        title: "LibScrib",
-        tools: "Node, Express, MySQL, Bcrypt, Handlebars",
-        image: "../../../image/ocean.jpg",
-        description: "testing description testing descrptionm",
-        repo: "https://github.com/smfitz/Project-2-restAPI-group-4",
-        live: "https://libscrib-app.herokuapp.com/",
+        title: "Team Profile CLI",
+        tools: "HTML, CSS, JavaScript, JEST, Node, Inquirer",
+        image: "../../../image/cli.png",
+        description: "A browser-based application that allows users to randomly generate strong passwords based on window prompts.",
+        repo: "https://github.com/t-starkw/what-team-wildcats",
+        live: "https://github.com/t-starkw/what-team-wildcats",
     },
+
     {
         id: 1,
         title: "J.A.T.E",
@@ -22,48 +24,46 @@ const projects = [
     },
     {
         id: 2,
-        title: "3rd project",
-        tools: "tools, html, css, blah, javascript",
-        image: "../../../image/ocean.jpg",
-        description: "testing description testing descrptionm",
-        repo: "",
-        live: "",
+        title: "Hungry",
+        tools: "HTML, CSS, JavaScript, APIs",
+        image: "../../../image/Hungry.PNG",
+        description: "The happy hour food pairing generator. This API based generator renders a randomized food and cocktail pairing based on user input.",
+        repo: "https://github.com/t-starkw/diy-happy-hour",
+        live: "https://t-starkw.github.io/diy-happy-hour/rec.html",
     },
+
     {
         id: 3,
-        title: "4th project",
-        tools: "tools, html, css, blah, javascript",
-        image: "../../../image/ocean.jpg",
-        description: "testing description testing descrptionm",
-        repo: "",
-        live: "",
+        title: "Twittle",
+        tools: "JavaScript, MongoDB, Mongoose, Express",
+        image: "../../../image/twittle.png",
+        description: "A social networking API built with NoSQL. This API allows developers to retrieve and store user data such as posts, reactions and friends lists. ",
+        repo: "https://github.com/t-starkw/twittle",
+        live: "https://github.com/t-starkw/twittle",
     },
     {
         id: 4,
-        title: "5th project",
-        tools: "tools, html, css, blah, javascript",
-        image: "../../../image/ocean.jpg",
-        description: "testing description testing descrptionm",
-        repo: "",
-        live: "",
+        title: "LibScrib",
+        tools: "Node, Express, MySQL, Bcrypt, Handlebars",
+        image: "../../../image/LIB.PNG",
+        description: "LibScrib is a library and reviewing platform for bookworms. Users can search for books, make an account, and leave their own reviews. ",
+        repo: "https://github.com/smfitz/Project-2-restAPI-group-4",
+        live: "https://libscrib-app.herokuapp.com/",
     },
     {
         id: 5,
-        title: "6th project",
-        tools: "tools, html, css, blah, javascript",
-        image: "../../../image/ocean.jpg",
-        description: "testing description testing descrptionm",
-        repo: "",
-        live: "",
+        title: "Tech Talk",
+        tools: "JavaScript, MySQL, Sequelize, Express, Node, Bcrypt, Handlebars",
+        image: "../../../image/bloggy.png",
+        description: "A tech blog where users can create and personalize an account, post, and comment on other users posts.",
+        repo: "https://github.com/t-starkw/what-the-tech",
+        live: "https://ancient-dawn-15995.herokuapp.com/",
     },
 ]
 
 function Portfolio() {
     return (
-        <div>
-            <div>
-                <h1 className='text-center'>Portfolio</h1>
-            </div>
+        <div className='m-4'>
             <Project projects={projects} />
         </div>
 
