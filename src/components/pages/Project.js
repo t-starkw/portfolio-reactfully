@@ -14,7 +14,7 @@ function Project(props) {
 
             <Row md={3} >
                 {props.projects.map((project) => (
-                    <Col>
+                    <Col className='col-12 col-md-6 col-lg-4'>
                         <Card className="bg-dark text-white card text-center m-4">
                             <Card.Img className='card-img' src={project.image} alt="Project card" />
                             <Card.ImgOverlay className='overlay'>
