@@ -1,0 +1,14 @@
+.about-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.mobile-text {
+  text-align: left;
+}
+
+@media (max-device-width: 600px) {
+  .mobile-text {
+    text-align: center;
+  }
+}

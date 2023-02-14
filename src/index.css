@@ -8,31 +8,6 @@ body {
 
 }
 
-/* carousel */
-.carousel img {
-  width: auto;
-  max-width: 100%;
-  height: auto;
-}
-
-.carousel {
-  display: flex;
-  width: 100%;
-  height: 500px;
-  margin: auto;
-}
-
-.carousel-item {
-  flex-wrap: wrap;
-}
-
-@media (max-width: 900px) {
-  .carousel {
-    width: auto;
-    height: auto;
-  }
-}
-
 /* cards */
 .card-img {
   height: 300px;
@@ -129,23 +104,3 @@ textarea {
 }
 
 /* footer */
-.footer {
-  text-align: center;
-  position: fixed;
-  width: 100%;
-  height: 90px;
-  bottom: 0;
-  color: black;
-  font-size: 25px;
-}
-
-.footer a {
-  color: black;
-  margin: 10px;
-  /* background-color: aqua; */
-  border-radius: 10%;
-  border: solid 2px;
-  padding: 10px;
-}
-
-@media only screen and (max-width : 320px) {}
