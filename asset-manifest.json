@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/portfolio-reactfully/static/css/main.d422490e.css",
+    "main.js": "/portfolio-reactfully/static/js/main.18b6e1c3.js",
+    "static/media/white.jpg": "/portfolio-reactfully/static/media/white.1f4fdd34ec01a377218e.jpg",
+    "index.html": "/portfolio-reactfully/index.html",
+    "main.d422490e.css.map": "/portfolio-reactfully/static/css/main.d422490e.css.map",
+    "main.18b6e1c3.js.map": "/portfolio-reactfully/static/js/main.18b6e1c3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d422490e.css",
+    "static/js/main.18b6e1c3.js"
+  ]
+}
