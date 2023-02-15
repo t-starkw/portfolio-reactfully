@@ -17,7 +17,7 @@ function About() {
                         <div>
                             <Image
                                 className='about-img img-responsive center-block d-block mx-auto'
-                                src='../../../image/me^2.jpg'
+                                src='../../../portfolio-reactfully/image/me^2.jpg'
                                 roundedCircle
                             />
                         </div>
