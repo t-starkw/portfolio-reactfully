@@ -36,7 +36,7 @@ const projects = [
         id: 3,
         title: "Twittle",
         tools: "JavaScript, MongoDB, Mongoose, Express",
-        image: "../../../portfolio-reactfully/image/twittle.png",
+        image: "../../../portfolio-reactfully/image/twittle.PNG",
         description: "A social networking API built with NoSQL. This API allows developers to retrieve and store user data such as posts, reactions and friends lists. ",
         repo: "https://github.com/t-starkw/twittle",
         live: "https://github.com/t-starkw/twittle",
