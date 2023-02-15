@@ -7,6 +7,7 @@ A React portfolio used to showcase my work as a developer. Contains a biography 
 - [Dependencies](#dependencies)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Future Improvements](#future-improvements)
 
 
 ### Deployed Application
@@ -33,3 +34,12 @@ To install this project on your local device, use `git clone <REPONAME>` in your
 
 ### Usage
 After having cloned the repository, run the command `npm start` to start the development server. Make sure that you have navigated to the correct directory location in your terminal/command-line.
+
+### Future Improvements
+In future versions of this project, I hope to implement the following features/improvements:
+- Dark/Light mode
+- Styling with Tailwindcss (themeing, etc.)
+- Use more than one font
+- Animations with cursor movement and other elements
+- Cleaner UI/ branding
+- Contact form functionality (backend)
