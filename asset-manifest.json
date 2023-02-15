@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio-reactfully/static/css/main.d422490e.css",
-    "main.js": "/portfolio-reactfully/static/js/main.aca6c31b.js",
+    "main.js": "/portfolio-reactfully/static/js/main.dd27fefb.js",
     "static/media/white.jpg": "/portfolio-reactfully/static/media/white.1f4fdd34ec01a377218e.jpg",
     "index.html": "/portfolio-reactfully/index.html",
     "main.d422490e.css.map": "/portfolio-reactfully/static/css/main.d422490e.css.map",
-    "main.aca6c31b.js.map": "/portfolio-reactfully/static/js/main.aca6c31b.js.map"
+    "main.dd27fefb.js.map": "/portfolio-reactfully/static/js/main.dd27fefb.js.map"
   },
   "entrypoints": [
     "static/css/main.d422490e.css",
-    "static/js/main.aca6c31b.js"
+    "static/js/main.dd27fefb.js"
   ]
 }
