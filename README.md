@@ -35,7 +35,7 @@ npm start
 
 ## Deployed Application
 You can view the live application
-[here](https://graphic-ql.herokuapp.com/)
+[here](https://t-starkw.github.io/portfolio-reactfully/)
 
 ## Meta
 
