@@ -78,7 +78,7 @@ function Resume() {
                     <Col xs={12} md={6} className='mobile mt-3'>
                        
                         <h4>Download a copy of my resume!</h4>
-                        <a class="btn btn-primary resume-btn mt-3" href="https://drive.google.com/file/d/1W-X4Vl3WOGpRf2YIDtIWPJNj3Qr1wGp4/view?usp=sharing" role="button"><AiOutlineFilePdf className='pdf-icon' />Click Me</a>
+                        <a class="btn btn-primary resume-btn mt-3" href="https://drive.google.com/file/d/1Mv03g5hAHC5_Q4j_buI-cw-VsvG6whlJ/view?usp=sharing" role="button"><AiOutlineFilePdf className='pdf-icon' />Click Me</a>
 
                     </Col>
                     <Col xs={12} md={3}>

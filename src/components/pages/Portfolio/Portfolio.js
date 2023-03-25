@@ -24,12 +24,12 @@ const projects = [
     },
     {
         id: 2,
-        title: "Hungry",
-        tools: "HTML, CSS, JavaScript, APIs",
-        image: "../../../portfolio-reactfully/image/Hungry.PNG",
-        description: "The happy hour food pairing generator. This API based generator renders a randomized food and cocktail pairing based on user input.",
-        repo: "https://github.com/t-starkw/diy-happy-hour",
-        live: "https://t-starkw.github.io/diy-happy-hour/rec.html",
+        title: "PPLUS",
+        tools: "HTML, CSS, JavaScript, MERN Stack, GraphQL, Tailwind CSS",
+        image: "../../../portfolio-reactfully/image/pplus-gen22.PNG",
+        description: "A password generating and storage application. Users can generate custom passwords and assign them to various apps and services.",
+        repo: "https://github.com/t-starkw/pplus",
+        live: "https://pplus.onrender.com/",
     },
 
     {
